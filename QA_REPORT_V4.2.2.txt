@@ -1,0 +1,14 @@
+ROOT V4.2.2 — BUDDYCHAT REAL FIX
+
+Cause exacte :
+- addBuddy était déclaré addBuddy(contact, from, text, delaySound)
+- toutes les scènes l'appelaient addBuddy(contact, text)
+- le texte était donc stocké dans 'from' et 'text' restait undefined.
+
+Correctifs :
+- addBuddy(contact, text, delaySound)
+- migration automatique des anciens messages cassés dans les sauvegardes
+- renderer de secours pour anciennes entrées
+- couleur noire forcée directement sur le texte des messages
+
+Ce correctif ne supprime pas la sauvegarde.

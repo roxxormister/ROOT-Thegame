@@ -1,0 +1,11 @@
+ROOT V4.3 — STABILITY FIX
+
+- ROOT Project remplace le nom RELAY dans toute l'interface.
+- L'icône fournie root_icon.png est restaurée.
+- Le raccourci ROOT Client redondant est masqué.
+- Répondre pendant le défi SILENCE déclenche immédiatement une réaction.
+- Fermer ROOT Project ou couper CamView pendant une interdiction déclenche immédiatement une réaction.
+- RadioWave reconnaît 91.7 FM en environ 0,3 seconde.
+- RadioWave fonctionne quel que soit l'ordre : fréquence puis ON, ou ON puis fréquence.
+- Les réactions d'échec ouvrent ROOT Project et ne restent plus invisibles.
+- Sauvegardes V4.2.x conservées.

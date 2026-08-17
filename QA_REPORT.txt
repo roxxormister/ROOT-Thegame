@@ -1,0 +1,14 @@
+ROOT — SESSION / QA
+===================
+
+Architecture : HTML/CSS/JavaScript local, aucune dépendance réseau.
+Webcam : API getUserMedia standard, flux local seulement, aucun enregistrement/capture/upload.
+Messageries : BuddyChat et RELAY sont deux applications séparées.
+RootProject : site fictif navigable avec Accueil / Projet / Sessions / Archives / FAQ / Client.
+RadioWave : application fonctionnelle avec stations et audio.
+Narration : 14 défis, réponses à choix, branches obéissance/refus, conclusion commune.
+
+Tests à effectuer sur la machine du joueur :
+- permission webcam réelle (dépend du navigateur et du périphérique)
+- sortie audio choisie par Windows
+- échelle écran / résolution très atypique

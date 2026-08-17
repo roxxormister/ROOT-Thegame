@@ -1,0 +1,9 @@
+ROOT V4.5 — SCREAMER UPDATE
+
+- Ajout d'un vrai screamer ROOT plein écran lors d'une mort.
+- ROOT surgit brutalement à l'écran avec zoom caméra et tremblement.
+- Jumpscare + glitch + stinger superposés.
+- Courte coupure noire avant l'écran de mort.
+- Aucun gore / aucune image graphique.
+- Le screamer est également utilisé dans la fin.
+- JavaScript validé avec node --check.

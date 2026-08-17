@@ -1,0 +1,17 @@
+ROOT V4.2 — QA
+
+Vérifications effectuées :
+- JavaScript : node --check OK.
+- CSS : accolades équilibrées.
+- Nouveaux assets présents : root_door.png, root_kawaii_run.png, root_kawaii_peace.png.
+- RELAY prend en charge les pièces jointes image.
+- RootProject référence les deux visuels kawaii.
+- ROOT Fun est enregistré comme application et comme défi 09.
+- Les anciennes mécaniques de sauvegarde V4 restent compatibles.
+- Radio : délai de réponse réduit à ~1,6 s après réglage sur 91.7.
+- Défi 01 : 8 s au lieu de 15 s.
+- Défi 06 : 12 s au lieu de 25 s.
+- CamView : séquences réduites à 8 s / 10 s.
+
+Note navigateur :
+Les navigateurs modernes bloquent l'autoplay audio avant une première interaction utilisateur. Le menu affiche donc un bouton discret permettant d'activer immédiatement la musique. Une fois l'audio autorisé, la musique boucle normalement.

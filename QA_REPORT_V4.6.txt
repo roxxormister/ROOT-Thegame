@@ -1,0 +1,23 @@
+ROOT V4.6 — ROOT FUN + SCREAMER FIX
+
+ROOT FUN
+- Cause du blocage corrigée : le calcul de déplacement pouvait produire NaN lorsque aucune touche n'était pressée.
+- Contrôles remplacés par des états booléens explicites.
+- ROOT démarre directement posé sur la première plateforme.
+- Canvas automatiquement focalisé.
+- Clic dans le mini-jeu redonne le focus.
+- Collision avec les plateformes réécrite.
+- Respawn fiable au début du niveau.
+- Test de physique : déplacement vers la droite validé.
+
+SCREAMER
+- Court silence noir avant l'apparition.
+- ROOT surgit beaucoup plus vite et beaucoup plus près de la caméra.
+- Tremblement, séparation chromatique et déchirure vidéo.
+- Son jumpscare + glitch + stinger.
+- Coupure noire sèche avant l'écran de mort.
+- Aucun gore et pas de séquence de flashs répétitifs.
+
+VALIDATION
+- JavaScript : node --check OK.
+- CSS structurel : OK.

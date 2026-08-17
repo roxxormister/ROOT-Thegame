@@ -1,0 +1,17 @@
+ROOT V4.4 — DEATH RULES + START MENU FIX
+
+CORRECTIONS
+- Toute désobéissance, mauvaise réponse ou expiration d'un défi déclenche maintenant une vraie mort de partie.
+- La mort affiche ROOT, coupe la session et propose "Recommencer le défi" ou "Menu principal".
+- Le jeu crée un checkpoint au début de chaque défi.
+- Recommencer le défi restaure l'état propre d'avant l'erreur.
+- L'état échoué n'est pas enregistré dans la sauvegarde.
+- Fermer ROOT Project pendant le défi 01 tue le joueur.
+- Répondre pendant le défi SILENCE tue le joueur.
+- Refuser les défis qui imposent une règle tue le joueur.
+- Mauvais code / mauvaise radio / mauvais fichier / webcam refusée pendant un défi : mort.
+- Menu Démarrer : texte noir forcé sur les boutons blancs, texte blanc conservé dans l'en-tête bleu.
+
+VALIDATION
+- JavaScript vérifié avec node --check : OK
+- CSS structurel vérifié : OK
